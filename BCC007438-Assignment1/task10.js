@@ -1,0 +1,13 @@
+var randomNum;
+randomNum = "value after variable declaration is: ?? <br/>";
+document.write(randomNum);
+randomNum = 5;
+document.write("Initial value: "+randomNum, "<br/>");
+randomNum = ++randomNum;
+document.write("Value after increament is: " + randomNum, "<br/>");
+randomNum = randomNum+7;
+document.write("Value after addition is: " + randomNum, "<br/>");
+randomNum = --randomNum;
+document.write("Value after decreament is: " + randomNum, "<br/>");
+randomNum = randomNum/3;
+document.write("The remainder is: " +randomNum);
